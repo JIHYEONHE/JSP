@@ -1,0 +1,19 @@
+<%@page import="java.util.Calendar"%>
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.text.DateFormat"%>
+<%@ page  contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Session Info</title>
+</head>
+<body>
+	<%
+	DateFormat formatter = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+	Calendar calendar = Calendar.getInstance();
+	%>
+	<p>세션id : <%=session.getId()%></p>
+	<p>세션 생성 시간 : <%=formatter.format(calendar.getTime()) %></p>
+</body>
+</html>

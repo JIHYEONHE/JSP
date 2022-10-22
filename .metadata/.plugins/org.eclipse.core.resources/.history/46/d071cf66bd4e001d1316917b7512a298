@@ -1,0 +1,20 @@
+<%@ page  contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cookie</title>
+</head>
+<body>
+	<% //스크립틀릿
+//		Cookie cookie_id = new Cookie("userID",user_id);	
+//		Cookie cookie_pw = new Cookie("userPW",user_pw);	
+		//모든 쿠키 정보를 가저와보자. 요청 시 쿠키도 함께 전달 됨
+		Cookie[] cookies = request.getCookies();		
+	
+		//현재 설정된 쿠키의 개수?
+		out.print("현재 설정된 쿠키의 개수 : " + cookies.length + "<br />");
+		out.print("<hr />")
+	%>
+</body>
+</html>

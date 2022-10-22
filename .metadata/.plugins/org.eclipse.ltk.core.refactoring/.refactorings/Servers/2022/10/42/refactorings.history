@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;WebContent&apos;&#x0D;&#x0A;- Original project: &apos;Servers&apos;&#x0D;&#x0A;- Destination element: &apos;WebContent&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     web.xml&#x0D;&#x0A;     tomcat-users.xml" description="Copy files" element1="Tomcat v8.5 Server at localhost-config/web.xml" element2="Tomcat v8.5 Server at localhost-config/tomcat-users.xml" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1665490348509" target="/BookMarket/WebContent" units="0" version="1.0"/>
+</session>

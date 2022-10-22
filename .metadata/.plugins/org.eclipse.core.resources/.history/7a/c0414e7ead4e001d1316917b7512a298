@@ -1,0 +1,8 @@
+<%@ page  contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%//스크립틀릿
+//removeCart.jsp?id=P1234
+	String id = request.getParameter("id"); //P1234
+	
+	//만약, removeCart.jsp 또는 removeCart.jsp?id=Z1234
+%>

@@ -1,0 +1,14 @@
+<%@ page  contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cookie</title>
+</head>
+<body>
+	<%//스크립틀릿
+		//요청 시 마다 쿠키를 함께 보냄
+	
+	%>
+</body>
+</html>
